@@ -1,0 +1,163 @@
+:root {
+  --color-title-background: #2e2f42;
+  --color-text: #434455;
+  --color-studio: #4d5ae5;
+  --alternative-color: #f4f4fd;
+  --bacground-color-text: #ffffff;
+  --hover-color: #434455;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-text);
+  background-color: var(--bacground-color-text);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* title */
+
+h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-title-background);
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--color-title-background);
+}
+
+/* Link formating */
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-hover:hover {
+  color: var(--color-studio);
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link-nav a {
+  color: var(--color-title-background);
+  font-weight: 600;
+}
+
+.link-contacts a {
+  color: var(--color-text);
+}
+
+.link-hover:hover,
+.link-hover:focus {
+  color: var(--hover-color);
+}
+
+.link:active {
+  color: var(--color-studio);
+}
+
+
+
+/* logo style */
+
+.logo {
+  color: var(--color-title-background);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+}
+
+.first-word {
+  color: var(--color-studio);
+}
+
+.logo-bottom {
+  color: var(--alternative-color);
+}
+
+/* Hero styles */
+
+.hero {
+  color: var(--bacground-color-text);
+  background-color: var(--color-title-background);
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  max-width: 492px;
+}
+
+.button-hero {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.18;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--bacground-color-text);
+  background-color: var(--color-studio);
+  border: 0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button-hero:active {
+  background-color: #404bbf;
+}
+
+/* Our Team */
+
+.our-team {
+  background-color: var(--alternative-color);
+}
+
+.team-list li {
+  background-color: var(--bacground-color-text);
+  text-align: center;
+}
+
+.footer {
+  background-color: var(--color-title-background);
+  color: #e7e9fc;
+}
+
+/* Page Portfolio */
+
+.title-portfolio {
+  text-align: left;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.button {
+  font-weight: 600;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--color-studio);
+  background-color: var(--alternative-color);
+  border: 0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--alternative-color);
+  background-color: var(--color-studio);
+}
