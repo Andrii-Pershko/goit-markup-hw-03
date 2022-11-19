@@ -22,6 +22,7 @@ html {
 }
 
 header {
+  border-bottom: 0.5px solid #f4f4fd;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -55,6 +56,13 @@ h3 {
   font-size: 20px;
   line-height: 1.2;
   color: var(--color-title-background);
+  margin: 0px;
+  margin-top: 32px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .container {
@@ -188,7 +196,7 @@ nav {
   cursor: pointer;
   padding: 16px 32px;
   border-radius: 4px;
-  margin-bottom: 192px;
+  margin-bottom: 98px;
 }
 
 .button-hero:active {
@@ -196,18 +204,36 @@ nav {
 }
 
 /* Section after hero */
+
 .after-hero ul {
   display: flex;
-  margin-top: 120px;
-  margin-bottom: 120px;
+  margin-top: 26px;
+  margin-bottom: 26px;
 }
 
 .after-hero ul li {
   width: 264px;
+  margin-bottom: 0;
+  
+}
+
+.after-hero ul li h3 {
+  margin-top: 0;
 }
 
 .after-hero ul {
   justify-content: space-between;
+}
+
+.p-after {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+/* what doing */
+
+.doing {
+  padding-top: 0;
 }
 
 .doing-title {
@@ -230,7 +256,7 @@ nav {
 .doing > ul {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 120px;
+  margin-bottom: 24px;
 }
 
 .our-team ul {
@@ -244,6 +270,9 @@ nav {
   background-color: var(--bacground-color-text);
   text-align: center;
   height: 380px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .footer {
@@ -254,6 +283,10 @@ nav {
 }
 
 /* Page Portfolio */
+
+.colection {
+  padding-top: 96px;
+}
 
 .title-portfolio {
   text-align: left;
@@ -300,10 +333,6 @@ nav {
   margin-right: 0;
 }
 
-.colection {
-  margin-top: 108px;
-}
-
 .filter > li {
   min-width: 48px;
   margin-bottom: 72px;
@@ -313,12 +342,11 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 120px;
 }
 
 .examples-works > li {
   margin-bottom: 48px;
-  border: 0.5px solid #f4f4fd;
+  border-bottom: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .title-portfolio {
@@ -331,4 +359,9 @@ nav {
 
 .item-works:nth-last-child(-n + 3) {
   margin-bottom: 0;
+}
+
+p {
+  margin-top: 8px;
+  margin-bottom: 32px;
 }
