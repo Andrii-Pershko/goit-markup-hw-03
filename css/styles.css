@@ -242,6 +242,10 @@ nav {
 
 /* Our Team */
 
+.team-list > li > img {
+  display: block;
+}
+
 .our-team {
   padding-top: 120px;
   padding-bottom: 120px;
