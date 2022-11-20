@@ -56,8 +56,7 @@ h3 {
   font-size: 20px;
   line-height: 1.2;
   color: var(--color-title-background);
-  margin: 0px;
-  margin-top: 32px;
+  margin: 0;
 }
 
 .section {
@@ -66,9 +65,7 @@ h3 {
 }
 
 .container {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -162,7 +159,6 @@ nav {
 }
 
 .logo-bottom {
-  margin-left: 156px;
   color: var(--alternative-color);
 }
 
@@ -173,6 +169,7 @@ nav {
   background-color: var(--color-title-background);
   text-align: center;
   padding-top: 192px;
+  padding-bottom: 192px;
 }
 
 .hero-title {
@@ -196,7 +193,6 @@ nav {
   cursor: pointer;
   padding: 16px 32px;
   border-radius: 4px;
-  margin-bottom: 98px;
 }
 
 .button-hero:active {
@@ -205,10 +201,14 @@ nav {
 
 /* Section after hero */
 
+.after-hero {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  
+}
+
 .after-hero ul {
   display: flex;
-  margin-top: 26px;
-  margin-bottom: 26px;
 }
 
 .after-hero ul li {
@@ -234,6 +234,12 @@ nav {
 
 .doing {
   padding-top: 0;
+  padding-bottom: 120px;
+}
+
+.list-doing {
+  display: flex;
+  justify-content: space-between;
 }
 
 .doing-title {
@@ -255,12 +261,6 @@ nav {
 
 .team-title {
   margin-bottom: 72px;
-}
-
-.doing > ul {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 24px;
 }
 
 .our-team ul {
@@ -309,7 +309,7 @@ nav {
   border: 0;
   cursor: pointer;
   border-radius: 4px;
-  padding: 12px 24px;
+  padding: 16px 24px;
 }
 
 .button:hover,
@@ -318,8 +318,13 @@ nav {
   background-color: var(--color-studio);
 }
 
-.footer-text {
+.footer-data {
   margin-left: 156px;
+}
+
+.footer-text {
+  margin: 0;
+  margin-left: 0;
   margin-top: 16px;
   width: 264px;
 }
@@ -327,6 +332,7 @@ nav {
 .filter {
   display: flex;
   justify-content: center;
+  margin-bottom: 72px;
 }
 
 .filter-item {
@@ -339,7 +345,6 @@ nav {
 
 .filter > li {
   min-width: 48px;
-  margin-bottom: 72px;
 }
 
 .examples-works {
@@ -353,19 +358,32 @@ nav {
   border-bottom: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.title-portfolio {
-  margin-left: 16px;
-}
+
 
 .text-works {
-  margin-left: 16px;
+  margin: 0;
+  margin-top: 8px;
 }
 
 .item-works:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
 
-p {
+.position {
+  margin: 0;
   margin-top: 8px;
-  margin-bottom: 32px;
+}
+
+.person-data {
+  margin-top: 32px;
+}
+
+.item-works > a > img {
+  display: block;
+}
+
+.example-work {
+  padding-left: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
